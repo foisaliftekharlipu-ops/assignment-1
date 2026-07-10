@@ -147,7 +147,7 @@
 
 /* banner (hero) Section end */
 
-
+/* Meet the Speakers Section start */
 .speakers-section {
     padding: 80px 20px;
     background-color: #ffffff;
@@ -187,7 +187,7 @@
 
 .card-img-wrapper {
     width: 100%;
-    height: 260px;
+    height: 250px;
     overflow: hidden;
 }
 
@@ -240,3 +240,175 @@
 }
 
 /* Meet the Speakers Section end */
+
+
+/* --- Pricing Section Main Styles --- */
+.pricing-section {
+    padding: 80px 0;
+    background-color: #ffffff;
+}
+
+.pricing-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Text */
+.pricing-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.pricing-header h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 12px;
+}
+
+.pricing-header p {
+    font-size: 16px;
+    color: #64748b;
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.pricing-card {
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 35px 25px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease;
+}
+
+.pricing-card:hover {
+    transform: translateY(-4px);
+}
+
+.pricing-card.featured-card {
+    background-color: #0b1329;
+    color: #ffffff;
+    border: none;
+}
+
+/* Inside Card Elements */
+.plan-label {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #64748b;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.featured-card .plan-label {
+    color: #38bdf8;
+}
+
+.price-wrapper {
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 40px;
+    font-weight: 700;
+    color: #0f172a;
+    display: block;
+}
+
+.featured-card .price {
+    color: #ffffff;
+}
+
+.price-period {
+    font-size: 14px;
+    color: #64748b;
+}
+
+.featured-card .price-period {
+    color: #94a3b8;
+}
+
+.card-divider {
+    border: 0;
+    border-top: 1px solid #e2e8f0;
+    margin-bottom: 20px;
+}
+
+.featured-card .card-divider {
+    border-top: 1px solid #1e293b;
+}
+
+.features-list {
+    list-style: none; 
+    margin-bottom: 30px;
+    flex-grow: 1; 
+}
+
+.features-list li {
+    font-size: 14px;
+    color: #475569;
+    margin-bottom: 12px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.featured-card .features-list li {
+    color: #cbd5e1;
+}
+
+.features-list li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #2563eb;
+}
+
+.btn-pricing {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 24px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.btn-outline {
+    border: 1px solid #2563eb;
+    color: #2563eb;
+    background-color: transparent;
+}
+
+.btn-outline:hover {
+    background-color: #f0f5ff;
+}
+
+.btn-solid {
+    background-color: #2563eb;
+    color: #ffffff;
+}
+
+.btn-solid:hover {
+    background-color: #1d4ed8;
+}
+
+.btn-dark-outline {
+    border: 1px solid #0f172a;
+    color: #0f172a;
+    background-color: transparent;
+}
+
+.btn-dark-outline:hover {
+    background-color: #f1f5f9;
+}
+
+/* Secure Your Spot (Pricing) Section end */
